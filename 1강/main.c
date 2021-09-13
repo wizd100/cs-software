@@ -2,9 +2,15 @@
 #include <stdio.h>
 
 int main(void) {
-	int a, b, c;
-	scanf("%1d%1d%1d", &a, &b, &c);
-	printf("%d %d %d", a, b, c);
+	int a;
+	int b;
+
+	scanf("%d %d", &a, &b);
+	printf("%d + %d = %d\n", a, b, a + b);
+	printf("%d - %d = %d\n", a, b, a - b);
+	printf("%d * %d = %d\n", a, b, a * b);
+	printf("%d / %d = %d\n", a, b, a / b);
+	printf("%d %% %d = %d\n", a, b, a % b);
 	system("pause");
 	return 0;
 }
