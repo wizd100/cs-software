@@ -6,7 +6,9 @@ int main(void) {
 	int b;
 	scanf("%d %d", &a, &b);
 	
-	printf("%d", a << 1);
+	if (a > b) {
+		printf("a°¡ Å©´Ù");
+	}
 
 	system("pause");
 	return 0;
