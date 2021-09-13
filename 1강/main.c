@@ -3,12 +3,10 @@
 
 int main(void) {
 	int a;
-	scanf("%d", &a);
+	int b;
+	scanf("%d %d", &a, &b);
 	
-	printf("%d\n", a++);
-	printf("%d\n", ++a);
-	printf("%d\n", --a);
-	printf("%d\n", a--);
+	printf("%d\n", a == b ? 100 : -100);
 
 	system("pause");
 	return 0;
