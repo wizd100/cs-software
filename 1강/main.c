@@ -6,7 +6,7 @@ int main(void) {
 	int b;
 	scanf("%d %d", &a, &b);
 	
-	printf("%d\n", a == b ? 100 : -100);
+	printf("%d", a << 1);
 
 	system("pause");
 	return 0;
