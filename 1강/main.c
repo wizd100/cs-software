@@ -1,15 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void dice(int input) {
-	printf("¡÷ªÁ¿ß %d\n", input);
+int add(int a, int b) {
+	return a + b;
 }
 
 int main(void) {
-	dice(3);
-	dice(4);
-	dice(6);
-
+	printf("%d\n", add(10, 20));
+	printf("%d\n", add(10, 30));
 	system("pause");
 	return 0;
 }
