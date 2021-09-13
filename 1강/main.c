@@ -1,13 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int add(int a, int b) {
-	return a + b;
+int factorial(int a) {
+	if (a == 1) {
+		return 1;
+	}
+
+	return a * factorial(a - 1);
 }
 
 int main(void) {
-	printf("%d\n", add(10, 20));
-	printf("%d\n", add(10, 30));
+	int n;
+	printf("팩토리얼을 계산합니다. ");
+	scanf("%d", &n);
+	printf("%d\n", factorial(n));
 	system("pause");
 	return 0;
 }
