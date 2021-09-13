@@ -3,17 +3,12 @@
 
 int main(void) {
 	int a;
-	int b;
-	int c;
-	scanf("%d %d %d", &a, &b, &c);
-	printf("%d\n", a > b); //true 1 false 0
-	printf("%d\n", a == b); //true 1 false 0
-	printf("%d\n", a < b); //true 1 false 0
-	printf("%d\n", a != b); //true 1 false 0
-	printf("%d\n", a && b); //true 1 false 0
-	printf("%d\n", a || b); //true 1 false 0
-
-
+	scanf("%d", &a);
+	
+	printf("%d\n", a++);
+	printf("%d\n", ++a);
+	printf("%d\n", --a);
+	printf("%d\n", a--);
 
 	system("pause");
 	return 0;
